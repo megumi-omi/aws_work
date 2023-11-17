@@ -6,7 +6,7 @@ set :application, 'aws_work'
 
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://https://github.com/megumi-omi/aws_work'
+set :repo_url, 'https://github.com/megumi-omi/aws_work'
 
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
